@@ -21,7 +21,7 @@ def config():
                         help='Path to the folder the model parameters is loaded from.')
     parser.add_argument('--output_folder', type=str, default='./pth',
                         help='Path to the output folder for saving the model (optional).')
-    parser.add_argument('--folder', type=str, default=r'D:\data\new_cancer',
+    parser.add_argument('--folder', type=str, default='',
                         help='Path to the data. (saved as pickle)')
     parser.add_argument('--mode', type=str, default='all',
                         help='all/few-shot')
