@@ -1,0 +1,7 @@
+keras==2.8.0
+pandas==1.3.4
+scikit-learn==1.0
+scikit-survival==0.17.2
+numpy==1.21.2
+torch==1.13.1
+tqdm=4.62.4
