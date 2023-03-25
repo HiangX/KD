@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ## Data preparation
 
-All data used in our work are publicly available.  You can download the TCGA data from :https://www.synapse.org/#!Synapse:syn4976369.2. Here, we provide processed files in `data/raw_data`. Data files required for running can be obtained through processing. For instance, you can process `data/raw_data/Oncogene_5.txt` to obtain the {cancer_type}_gene5.csv. We provide samples in `data/sample_data`. The folder stucture as follow:
+All data used in our work are publicly available. Here, we provide processed files in `data/raw_data`. Data files required for running can be obtained through processing. For instance, you can process `data/raw_data/Oncogene_5.txt` to obtain the {cancer_type}_gene5.csv. We provide samples in `data/sample_data`. The folder stucture as follow:
 
 ````
 ```
