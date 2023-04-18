@@ -2,7 +2,7 @@
 
 This repo covers the implementation of the following paper:
 
-"A Unifified Method of Knowledge Distillation and Knowledge Abduction for Genomic Survival Analysis"
+"A Unified Method of Knowledge Distillation and Knowledge Abduction for Genomic Survival Analysis"
 
 
 
