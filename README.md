@@ -1,4 +1,4 @@
-# KDKA
+# KD
 
 This repo covers the implementation of the following paper:
 
