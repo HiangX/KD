@@ -1,5 +1,4 @@
 # KD
-# KD
 
 This repo covers the implementation of the following paper:
 
@@ -47,17 +46,16 @@ data
 
 ## Usage
 
-Path to the data used for running should save in `args.folder` as pickles, you can use the other data formats to match the dataset in your machine or re-write the *Cancer* and *Cancer_folder* class in the *datasets.py*.
+Path to the data used for running should save in `args.csv_folder` as csv files, you can use the other data formats to match the dataset in your machine or re-write the `Cancer` and `Cancer_fold` class in the `dataset.py`.
 
-### Train
+We have encapsulated the methods into a Python library, which includes two trainers: `KD_Trainer` and `KDKA_Trainer`. Additionally, there is an evaluation function provided for assessment. Below, we provide an example demonstrating how to use these methods:
 
-Take PAAD cancer as an example,  run:
+```python
+from KD.experiment import KD_Trainer, KDKA_Trainer
+# For more details about parameters, please refer to the github repository.
 
-`python main.py --folder <data path> --mode <all/few-shot> --cancer_type PAAD`
+#train = KDKA_Trainer(cancer_type='ACC', folder='data/cancer_gene/', resume='', csv_folder='data/', round=25, batch_size=10, output_folder='pth', lr=0.1, dim=5796, seed=42)
+train = KD_Trainer(cancer_type='ACC', folder='data/cancer_gene/', resume='', csv_folder='data/', round=25, batch_size=10, output_folder='pth', lr=0.1, dim=5796, seed=42)
+```
 
-### Test
-
-Take PAAD cancer as an example,  run:
-
-`python test.py --folder <data path> --mode <all/few-shot> --cancer_type PAAD --resume <pth path>`
-
+We have also provided a runnable notebook file for ease of learning and utilization.
