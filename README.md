@@ -5,6 +5,7 @@ This repo covers the implementation of the following paper:
 "Data Tells the Truth: A Knowledge Distillation Method
 for Genomic Survival Analysis by Handling Censoring"
 
+Project home page: https://datatellstruth.github.io/.
 
 
 ## Requeirements
