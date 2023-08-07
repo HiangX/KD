@@ -2,7 +2,8 @@
 
 This repo covers the implementation of the following paper:
 
-"A Unifified Method of Knowledge Distillation and Knowledge Abduction for Genomic Survival Analysis"
+"Data Tells the Truth: A Knowledge Distillation Method
+for Genomic Survival Analysis by Handling Censoring"
 
 
 
