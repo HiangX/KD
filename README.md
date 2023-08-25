@@ -10,7 +10,7 @@ Project home page: https://datatellstruth.github.io/.
 
 ## Requeirements
 
-Python 3.9.0
+Python 3.7.11
 
 Pytorch 1.13.1
 
